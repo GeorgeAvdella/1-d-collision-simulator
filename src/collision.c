@@ -139,18 +139,18 @@ int main(void) {
             DrawText("V   =", 40, 345, 20, RED);
             DrawText("A", 55, 359, 15, RED);
             DrawText("  1", 57, 363, 15, RED);
-            DrawRectangleRec(tBox[V_A_1], GRAY);
-            DrawText(vAOne_Input, 100, 345, 20, RED);
+            DrawRectangleRec(tBox[V_A_1], LIGHTGRAY);
+            DrawText(vAOne_Input, 100, 345, 20, BLACK);
 
             DrawText("M   =", 230, 345, 20, RED);
             DrawText("A", 245, 359, 15, RED);
-            DrawRectangleRec(tBox[M_A], GRAY);
-            DrawText(mA_Input, 290, 345, 20, RED);
+            DrawRectangleRec(tBox[M_A], LIGHTGRAY);
+            DrawText(mA_Input, 290, 345, 20, BLACK);
 
             DrawText("M   =", 230, 407, 20, RED);
             DrawText("B", 245, 421, 15, RED);
-            DrawRectangleRec(tBox[M_B], GRAY);
-            DrawText(mB_Input, 290, 407, 20, RED);
+            DrawRectangleRec(tBox[M_B], LIGHTGRAY);
+            DrawText(mB_Input, 290, 407, 20, BLACK);
             //------------------------------------------------------
 
             if (!clickStart) {
